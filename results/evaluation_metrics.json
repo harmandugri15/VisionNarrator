@@ -1,0 +1,68 @@
+{
+  "model": {
+    "file": "vit_gpt2_captioner.pt",
+    "best_phase": "phase3",
+    "val_loss": 2.3656,
+    "parameters": 211419648,
+    "vit": "google/vit-base-patch16-224-in21k",
+    "gpt2": "gpt2",
+    "prefix_len": 197
+  },
+  "test_set": {
+    "images": 4768,
+    "references_per_image": 5.0
+  },
+  "decoding": {
+    "num_beams": 5,
+    "max_new_tokens": 30,
+    "no_repeat_ngram": 3,
+    "greedy_minutes": 1.93,
+    "beam_minutes": 7.94
+  },
+  "metrics": {
+    "greedy": {
+      "BLEU-1": 0.6912,
+      "BLEU-2": 0.4912,
+      "BLEU-3": 0.3462,
+      "BLEU-4": 0.244,
+      "METEOR": 0.2225,
+      "ROUGE-L": 0.5252,
+      "CIDEr": 0.5492
+    },
+    "beam 5": {
+      "BLEU-1": 0.7082,
+      "BLEU-2": 0.5142,
+      "BLEU-3": 0.3718,
+      "BLEU-4": 0.2675,
+      "METEOR": 0.2285,
+      "ROUGE-L": 0.5362,
+      "CIDEr": 0.6038
+    }
+  },
+  "best_decoding": "beam 5",
+  "comparison_subset": {
+    "images": 500,
+    "previous_best_model": "Fine-tuned ViT + Decoder",
+    "previous_best_bleu4": 0.2537,
+    "final_model_bleu4": 0.2684
+  },
+  "analysis": {
+    "distinct_caption_ratio": 0.8899,
+    "most_common_caption": "A group of people are walking down the street .",
+    "most_common_caption_count": 32,
+    "generated_vocab_size": 1186,
+    "reference_vocab_size": 9213,
+    "mean_length_beam": 12.15,
+    "mean_length_greedy": 12.29,
+    "mean_length_references": 13.38,
+    "degenerate": {
+      "empty caption": 0,
+      "under 4 words": 0,
+      "no EOS within MAX_NEW_TOKENS": 1,
+      "repeated bigram": 531
+    },
+    "cider_below_0_2_share": 0.2991,
+    "spearman_confidence_cider": 0.3761,
+    "spearman_length_cider": -0.2482
+  }
+}

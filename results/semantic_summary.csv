@@ -1,0 +1,25 @@
+image,caption,entities,actions,relations,setting,locations,flags,entity_jaccard,attention_focus
+10010052.jpg,A woman in a blue shirt and blue jeans is standing on a skateboard .,2,1,1,unknown,,0,1.0,0.578
+1001465944.jpg,A group of people walking down a street .,2,1,1,outdoor,street,0,1.0,0.583
+1003163366.jpg,A man and a dog are sleeping on a bench .,3,1,1,unknown,bench,0,1.0,0.723
+100759042.jpg,A man in a gray hooded sweatshirt is looking at his cellphone .,2,1,1,unknown,,1,0.25,0.576
+10082347.jpg,A man in a yellow shirt is holding onto a pole .,2,1,1,unknown,,1,0.333,0.55
+1009434119.jpg,The black and white dog is running on the grass .,2,1,1,outdoor,grass,1,0.333,0.631
+1009692167.jpg,A man in a green vest is walking his dog on the street .,3,1,2,outdoor,street,0,1.0,0.656
+1010470346.jpg,Two men are standing in front of a building with a white building in the background .,5,1,2,outdoor,building,1,0.5,0.631
+101093029.jpg,A man and a woman are walking in front of a building .,4,1,1,outdoor,building,1,0.167,0.733
+1012150929.jpg,A young boy in a red shirt is playing an arcade game .,2,1,1,unknown,,0,0.667,0.548
+101362650.jpg,A group of children are practicing karate .,2,1,1,unknown,,0,1.0,0.77
+101471792.jpg,A man in a red coat is standing in front of a crowd of people .,3,1,1,unknown,,1,0.2,0.554
+1015584366.jpg,A black dog is running through the woods .,2,1,1,unknown,,1,0.333,0.751
+10188041.jpg,A man in a black suit is standing in front of a red car .,3,1,1,unknown,,0,1.0,0.648
+1026792563.jpg,A group of people are gathered in a market .,2,1,1,outdoor,market,1,0.25,0.688
+1029737941.jpg,A woman in a black shirt is looking at a flower .,2,1,1,unknown,,1,0.25,0.584
+102998070.jpg,A man in a gray shirt and a woman in a white shirt are looking at fish .,3,1,1,unknown,,1,1.0,0.658
+1030041880.jpg,A woman in a green dress dances on a stage .,3,0,2,indoor,stage,2,0.4,0.795
+1034276567.jpg,A young boy is eating a sandwich .,2,1,1,unknown,,0,1.0,0.787
+1039637574.jpg,A woman in a white dress is standing next to a man in a black dress .,2,1,0,unknown,,2,0.0,0.703
+104136873.jpg,A group of people are sitting on a hill overlooking the mountains .,3,2,2,outdoor,hill,0,0.5,0.587
+1043910339.jpg,A baseball player in a red and white uniform is swinging at the ball .,2,1,1,unknown,,1,0.25,0.769
+1045309098.jpg,A woman in a white shirt and a man in a black shirt are crossing the street .,3,1,1,unknown,,1,0.667,0.659
+104763189.jpg,Two young boys are riding bikes in the grass .,3,1,2,outdoor,grass,0,0.5,0.555

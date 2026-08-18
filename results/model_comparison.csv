@@ -1,0 +1,8 @@
+"BLEU, first 500 test images",BLEU-1,BLEU-2,BLEU-3,BLEU-4
+Scratch ViT,0.4904,0.2766,0.1616,0.1005
+Frozen ViT + Decoder,0.6623,0.4671,0.3252,0.2267
+Fine-tuned ViT + Decoder,0.679,0.4916,0.3528,0.2537
+ViT + GPT-2 (greedy),0.6901,0.4892,0.3449,0.2445
+ViT + GPT-2 (beam 5),0.7103,0.5156,0.3725,0.2684
+ViT + GPT-2 (greedy) - recomputed (500 imgs),0.6901,0.4892,0.3449,0.2445
+ViT + GPT-2 (beam 5) - recomputed (500 imgs),0.7103,0.5156,0.3725,0.2684

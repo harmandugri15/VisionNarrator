@@ -1,0 +1,9 @@
+{
+  "images": [
+    "10010052.jpg",
+    "1001465944.jpg",
+    "1003163366.jpg"
+  ],
+  "prompt": "Scene 1 (10010052.jpg):\nSetting: unspecified\nCharacters: a woman wearing blue shirt, blue jeans\nObjects: a skateboard\nActions: woman stand on skateboard (uncertain)\nRelations: woman stand on skateboard\nCaption: A woman in a blue shirt and blue jeans is standing on a skateboard .\n\nScene 2 (1001465944.jpg):\nSetting: outdoor, down the street\nCharacters: a group of people (uncertain)\nObjects: none identified\nActions: people walk down street\nRelations: people walk down street\nCaption: A group of people walking down a street .\n\nScene 3 (1003163366.jpg):\nSetting: on the bench\nCharacters: a man; a dog\nObjects: a bench\nActions: man sleep on bench\nRelations: man sleep on bench\nCaption: A man and a dog are sleeping on a bench .",
+  "instruction": "Write one continuous story of 8-12 sentences that moves through these scenes in order. Keep characters consistent when the same kind of character appears again, and stay vague about anything marked uncertain."
+}

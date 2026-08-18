@@ -1,0 +1,2807 @@
+[
+  {
+    "image": "10010052.jpg",
+    "source": "test",
+    "caption": "A woman in a blue shirt and blue jeans is standing on a skateboard .",
+    "entities": [
+      {
+        "id": 0,
+        "text": "A woman",
+        "lemma": "woman",
+        "type": "person",
+        "count": 1,
+        "plural": false,
+        "token": 1,
+        "confidence": 0.326
+      },
+      {
+        "id": 1,
+        "text": "a skateboard",
+        "lemma": "skateboard",
+        "type": "object",
+        "count": 1,
+        "plural": false,
+        "token": 13,
+        "confidence": 0.776
+      }
+    ],
+    "actions": [
+      {
+        "verb": "stand",
+        "text": "standing",
+        "subject": "woman",
+        "object": null,
+        "prep_objects": [
+          [
+            "on",
+            "skateboard"
+          ]
+        ],
+        "passive": false,
+        "token": 10,
+        "confidence": 0.26
+      }
+    ],
+    "attributes": [
+      {
+        "entity_id": 0,
+        "entity": "woman",
+        "attributes": [],
+        "wearing": [
+          {
+            "item": "shirt",
+            "modifiers": [
+              "blue"
+            ]
+          },
+          {
+            "item": "jeans",
+            "modifiers": [
+              "blue"
+            ]
+          }
+        ]
+      },
+      {
+        "entity_id": 1,
+        "entity": "skateboard",
+        "attributes": [],
+        "wearing": []
+      }
+    ],
+    "scene": {
+      "locations": [],
+      "setting": "unknown",
+      "cues": []
+    },
+    "relationships": [
+      {
+        "subject": "woman",
+        "relation": "stand on",
+        "object": "skateboard",
+        "kind": "action"
+      }
+    ],
+    "flags": [],
+    "greedy_caption": "A woman in blue jeans and a blue shirt is standing on a skateboard .",
+    "greedy_beam_entity_jaccard": 1.0,
+    "reference_overlap": {
+      "entities": {
+        "precision": 0.5,
+        "recall": 0.1,
+        "f1": 0.167
+      },
+      "actions": {
+        "precision": 1.0,
+        "recall": 0.167,
+        "f1": 0.286
+      },
+      "attributes": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "locations": {
+        "precision": null,
+        "recall": 0.0,
+        "f1": null
+      }
+    },
+    "attention_focus": 0.578
+  },
+  {
+    "image": "1001465944.jpg",
+    "source": "test",
+    "caption": "A group of people walking down a street .",
+    "entities": [
+      {
+        "id": 0,
+        "text": "A group of people",
+        "lemma": "people",
+        "type": "person",
+        "count": "group",
+        "plural": true,
+        "token": 3,
+        "confidence": 0.288
+      },
+      {
+        "id": 1,
+        "text": "a street",
+        "lemma": "street",
+        "type": "location",
+        "count": 1,
+        "plural": false,
+        "token": 7,
+        "confidence": 0.448
+      }
+    ],
+    "actions": [
+      {
+        "verb": "walk",
+        "text": "walking",
+        "subject": "people",
+        "object": null,
+        "prep_objects": [
+          [
+            "down",
+            "street"
+          ]
+        ],
+        "passive": false,
+        "token": 4,
+        "confidence": 0.429
+      }
+    ],
+    "attributes": [
+      {
+        "entity_id": 0,
+        "entity": "people",
+        "attributes": [],
+        "wearing": []
+      },
+      {
+        "entity_id": 1,
+        "entity": "street",
+        "attributes": [],
+        "wearing": []
+      }
+    ],
+    "scene": {
+      "locations": [
+        {
+          "location": "street",
+          "prep": "down",
+          "setting": "outdoor"
+        }
+      ],
+      "setting": "outdoor",
+      "cues": []
+    },
+    "relationships": [
+      {
+        "subject": "people",
+        "relation": "walk down",
+        "object": "street",
+        "kind": "action"
+      }
+    ],
+    "flags": [],
+    "greedy_caption": "A group of young people walking down a street .",
+    "greedy_beam_entity_jaccard": 1.0,
+    "reference_overlap": {
+      "entities": {
+        "precision": 0.5,
+        "recall": 0.143,
+        "f1": 0.222
+      },
+      "actions": {
+        "precision": 1.0,
+        "recall": 0.25,
+        "f1": 0.4
+      },
+      "attributes": {
+        "precision": null,
+        "recall": 0.0,
+        "f1": null
+      },
+      "locations": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      }
+    },
+    "attention_focus": 0.583
+  },
+  {
+    "image": "1003163366.jpg",
+    "source": "test",
+    "caption": "A man and a dog are sleeping on a bench .",
+    "entities": [
+      {
+        "id": 0,
+        "text": "A man",
+        "lemma": "man",
+        "type": "person",
+        "count": 1,
+        "plural": false,
+        "token": 1,
+        "confidence": 0.477
+      },
+      {
+        "id": 1,
+        "text": "a dog",
+        "lemma": "dog",
+        "type": "animal",
+        "count": 1,
+        "plural": false,
+        "token": 4,
+        "confidence": 0.857
+      },
+      {
+        "id": 2,
+        "text": "a bench",
+        "lemma": "bench",
+        "type": "object",
+        "count": 1,
+        "plural": false,
+        "token": 9,
+        "confidence": 0.595
+      }
+    ],
+    "actions": [
+      {
+        "verb": "sleep",
+        "text": "sleeping",
+        "subject": "man",
+        "object": null,
+        "prep_objects": [
+          [
+            "on",
+            "bench"
+          ]
+        ],
+        "passive": false,
+        "token": 6,
+        "confidence": 0.542
+      }
+    ],
+    "attributes": [
+      {
+        "entity_id": 0,
+        "entity": "man",
+        "attributes": [],
+        "wearing": []
+      },
+      {
+        "entity_id": 1,
+        "entity": "dog",
+        "attributes": [],
+        "wearing": []
+      },
+      {
+        "entity_id": 2,
+        "entity": "bench",
+        "attributes": [],
+        "wearing": []
+      }
+    ],
+    "scene": {
+      "locations": [
+        {
+          "location": "bench",
+          "prep": "on",
+          "setting": "unknown"
+        }
+      ],
+      "setting": "unknown",
+      "cues": []
+    },
+    "relationships": [
+      {
+        "subject": "man",
+        "relation": "sleep on",
+        "object": "bench",
+        "kind": "action"
+      }
+    ],
+    "flags": [],
+    "greedy_caption": "A man and a dog are sleeping on a bench .",
+    "greedy_beam_entity_jaccard": 1.0,
+    "reference_overlap": {
+      "entities": {
+        "precision": 1.0,
+        "recall": 0.6,
+        "f1": 0.75
+      },
+      "actions": {
+        "precision": 1.0,
+        "recall": 0.167,
+        "f1": 0.286
+      },
+      "attributes": {
+        "precision": null,
+        "recall": 0.0,
+        "f1": null
+      },
+      "locations": {
+        "precision": 1.0,
+        "recall": 0.5,
+        "f1": 0.667
+      }
+    },
+    "attention_focus": 0.723
+  },
+  {
+    "image": "100759042.jpg",
+    "source": "test",
+    "caption": "A man in a gray hooded sweatshirt is looking at his cellphone .",
+    "entities": [
+      {
+        "id": 0,
+        "text": "A man",
+        "lemma": "man",
+        "type": "person",
+        "count": 1,
+        "plural": false,
+        "token": 1,
+        "confidence": 0.504
+      },
+      {
+        "id": 1,
+        "text": "his cellphone",
+        "lemma": "cellphone",
+        "type": "object",
+        "count": 1,
+        "plural": false,
+        "token": 11,
+        "confidence": 0.363
+      }
+    ],
+    "actions": [
+      {
+        "verb": "look",
+        "text": "looking",
+        "subject": "man",
+        "object": null,
+        "prep_objects": [
+          [
+            "at",
+            "cellphone"
+          ]
+        ],
+        "passive": false,
+        "token": 8,
+        "confidence": 0.147
+      }
+    ],
+    "attributes": [
+      {
+        "entity_id": 0,
+        "entity": "man",
+        "attributes": [],
+        "wearing": [
+          {
+            "item": "sweatshirt",
+            "modifiers": [
+              "gray",
+              "hooded"
+            ]
+          }
+        ]
+      },
+      {
+        "entity_id": 1,
+        "entity": "cellphone",
+        "attributes": [],
+        "wearing": []
+      }
+    ],
+    "scene": {
+      "locations": [],
+      "setting": "unknown",
+      "cues": []
+    },
+    "relationships": [
+      {
+        "subject": "man",
+        "relation": "look at",
+        "object": "cellphone",
+        "kind": "action"
+      }
+    ],
+    "flags": [
+      "greedy/beam disagreement (Jaccard 0.25)"
+    ],
+    "greedy_caption": "A man with a red shirt and glasses is sitting on a couch .",
+    "greedy_beam_entity_jaccard": 0.25,
+    "reference_overlap": {
+      "entities": {
+        "precision": 0.5,
+        "recall": 0.077,
+        "f1": 0.133
+      },
+      "actions": {
+        "precision": 1.0,
+        "recall": 0.25,
+        "f1": 0.4
+      },
+      "attributes": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "locations": {
+        "precision": null,
+        "recall": null,
+        "f1": null
+      }
+    },
+    "attention_focus": 0.576
+  },
+  {
+    "image": "10082347.jpg",
+    "source": "test",
+    "caption": "A man in a yellow shirt is holding onto a pole .",
+    "entities": [
+      {
+        "id": 0,
+        "text": "A man",
+        "lemma": "man",
+        "type": "person",
+        "count": 1,
+        "plural": false,
+        "token": 1,
+        "confidence": 0.745
+      },
+      {
+        "id": 1,
+        "text": "a pole",
+        "lemma": "pole",
+        "type": "object",
+        "count": 1,
+        "plural": false,
+        "token": 10,
+        "confidence": 0.319
+      }
+    ],
+    "actions": [
+      {
+        "verb": "hold",
+        "text": "holding",
+        "subject": "man",
+        "object": null,
+        "prep_objects": [
+          [
+            "onto",
+            "pole"
+          ]
+        ],
+        "passive": false,
+        "token": 7,
+        "confidence": 0.709
+      }
+    ],
+    "attributes": [
+      {
+        "entity_id": 0,
+        "entity": "man",
+        "attributes": [],
+        "wearing": [
+          {
+            "item": "shirt",
+            "modifiers": [
+              "yellow"
+            ]
+          }
+        ]
+      },
+      {
+        "entity_id": 1,
+        "entity": "pole",
+        "attributes": [],
+        "wearing": []
+      }
+    ],
+    "scene": {
+      "locations": [],
+      "setting": "unknown",
+      "cues": []
+    },
+    "relationships": [
+      {
+        "subject": "man",
+        "relation": "hold onto",
+        "object": "pole",
+        "kind": "action"
+      }
+    ],
+    "flags": [
+      "greedy/beam disagreement (Jaccard 0.33)"
+    ],
+    "greedy_caption": "A man in a yellow shirt holding a stick .",
+    "greedy_beam_entity_jaccard": 0.333,
+    "reference_overlap": {
+      "entities": {
+        "precision": 1.0,
+        "recall": 0.333,
+        "f1": 0.5
+      },
+      "actions": {
+        "precision": 1.0,
+        "recall": 0.2,
+        "f1": 0.333
+      },
+      "attributes": {
+        "precision": 1.0,
+        "recall": 0.143,
+        "f1": 0.25
+      },
+      "locations": {
+        "precision": null,
+        "recall": 0.0,
+        "f1": null
+      }
+    },
+    "attention_focus": 0.55
+  },
+  {
+    "image": "1009434119.jpg",
+    "source": "test",
+    "caption": "The black and white dog is running on the grass .",
+    "entities": [
+      {
+        "id": 0,
+        "text": "The black and white dog",
+        "lemma": "dog",
+        "type": "animal",
+        "count": 1,
+        "plural": false,
+        "token": 4,
+        "confidence": 0.857
+      },
+      {
+        "id": 1,
+        "text": "the grass",
+        "lemma": "grass",
+        "type": "location",
+        "count": 1,
+        "plural": false,
+        "token": 9,
+        "confidence": 0.635
+      }
+    ],
+    "actions": [
+      {
+        "verb": "run",
+        "text": "running",
+        "subject": "dog",
+        "object": null,
+        "prep_objects": [
+          [
+            "on",
+            "grass"
+          ]
+        ],
+        "passive": false,
+        "token": 6,
+        "confidence": 0.635
+      }
+    ],
+    "attributes": [
+      {
+        "entity_id": 0,
+        "entity": "dog",
+        "attributes": [
+          {
+            "value": "black",
+            "category": "color"
+          },
+          {
+            "value": "white",
+            "category": "color"
+          }
+        ],
+        "wearing": []
+      },
+      {
+        "entity_id": 1,
+        "entity": "grass",
+        "attributes": [],
+        "wearing": []
+      }
+    ],
+    "scene": {
+      "locations": [
+        {
+          "location": "grass",
+          "prep": "on",
+          "setting": "outdoor"
+        }
+      ],
+      "setting": "outdoor",
+      "cues": []
+    },
+    "relationships": [
+      {
+        "subject": "dog",
+        "relation": "run on",
+        "object": "grass",
+        "kind": "action"
+      }
+    ],
+    "flags": [
+      "greedy/beam disagreement (Jaccard 0.33)"
+    ],
+    "greedy_caption": "A black and white dog is running on a grassy field .",
+    "greedy_beam_entity_jaccard": 0.333,
+    "reference_overlap": {
+      "entities": {
+        "precision": 1.0,
+        "recall": 0.333,
+        "f1": 0.5
+      },
+      "actions": {
+        "precision": 1.0,
+        "recall": 0.5,
+        "f1": 0.667
+      },
+      "attributes": {
+        "precision": 1.0,
+        "recall": 0.286,
+        "f1": 0.444
+      },
+      "locations": {
+        "precision": 1.0,
+        "recall": 0.333,
+        "f1": 0.5
+      }
+    },
+    "attention_focus": 0.631
+  },
+  {
+    "image": "1009692167.jpg",
+    "source": "test",
+    "caption": "A man in a green vest is walking his dog on the street .",
+    "entities": [
+      {
+        "id": 0,
+        "text": "A man",
+        "lemma": "man",
+        "type": "person",
+        "count": 1,
+        "plural": false,
+        "token": 1,
+        "confidence": 0.536
+      },
+      {
+        "id": 1,
+        "text": "his dog",
+        "lemma": "dog",
+        "type": "animal",
+        "count": 1,
+        "plural": false,
+        "token": 9,
+        "confidence": 0.851
+      },
+      {
+        "id": 2,
+        "text": "the street",
+        "lemma": "street",
+        "type": "location",
+        "count": 1,
+        "plural": false,
+        "token": 12,
+        "confidence": 0.649
+      }
+    ],
+    "actions": [
+      {
+        "verb": "walk",
+        "text": "walking",
+        "subject": "man",
+        "object": "dog",
+        "prep_objects": [
+          [
+            "on",
+            "street"
+          ]
+        ],
+        "passive": false,
+        "token": 7,
+        "confidence": 0.122
+      }
+    ],
+    "attributes": [
+      {
+        "entity_id": 0,
+        "entity": "man",
+        "attributes": [],
+        "wearing": [
+          {
+            "item": "vest",
+            "modifiers": [
+              "green"
+            ]
+          }
+        ]
+      },
+      {
+        "entity_id": 1,
+        "entity": "dog",
+        "attributes": [],
+        "wearing": []
+      },
+      {
+        "entity_id": 2,
+        "entity": "street",
+        "attributes": [],
+        "wearing": []
+      }
+    ],
+    "scene": {
+      "locations": [
+        {
+          "location": "street",
+          "prep": "on",
+          "setting": "outdoor"
+        }
+      ],
+      "setting": "outdoor",
+      "cues": []
+    },
+    "relationships": [
+      {
+        "subject": "man",
+        "relation": "walk",
+        "object": "dog",
+        "kind": "action"
+      },
+      {
+        "subject": "man",
+        "relation": "walk on",
+        "object": "street",
+        "kind": "action"
+      }
+    ],
+    "flags": [],
+    "greedy_caption": "A man in a green vest is walking his dog on a street .",
+    "greedy_beam_entity_jaccard": 1.0,
+    "reference_overlap": {
+      "entities": {
+        "precision": 1.0,
+        "recall": 0.375,
+        "f1": 0.545
+      },
+      "actions": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "attributes": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "locations": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      }
+    },
+    "attention_focus": 0.656
+  },
+  {
+    "image": "1010470346.jpg",
+    "source": "test",
+    "caption": "Two men are standing in front of a building with a white building in the background .",
+    "entities": [
+      {
+        "id": 0,
+        "text": "Two men",
+        "lemma": "man",
+        "type": "person",
+        "count": 2,
+        "plural": true,
+        "token": 1,
+        "confidence": 0.61
+      },
+      {
+        "id": 1,
+        "text": "front",
+        "lemma": "front",
+        "type": "object",
+        "count": 1,
+        "plural": false,
+        "token": 5,
+        "confidence": 0.82
+      },
+      {
+        "id": 2,
+        "text": "a building",
+        "lemma": "building",
+        "type": "location",
+        "count": 1,
+        "plural": false,
+        "token": 8,
+        "confidence": 0.195
+      },
+      {
+        "id": 3,
+        "text": "a white building",
+        "lemma": "building",
+        "type": "location",
+        "count": 1,
+        "plural": false,
+        "token": 12,
+        "confidence": 0.345
+      },
+      {
+        "id": 4,
+        "text": "the background",
+        "lemma": "background",
+        "type": "object",
+        "count": 1,
+        "plural": false,
+        "token": 15,
+        "confidence": 0.917
+      }
+    ],
+    "actions": [
+      {
+        "verb": "stand",
+        "text": "standing",
+        "subject": "man",
+        "object": null,
+        "prep_objects": [
+          [
+            "in",
+            "front"
+          ]
+        ],
+        "passive": false,
+        "token": 3,
+        "confidence": 0.364
+      }
+    ],
+    "attributes": [
+      {
+        "entity_id": 0,
+        "entity": "man",
+        "attributes": [],
+        "wearing": []
+      },
+      {
+        "entity_id": 1,
+        "entity": "front",
+        "attributes": [],
+        "wearing": []
+      },
+      {
+        "entity_id": 2,
+        "entity": "building",
+        "attributes": [],
+        "wearing": []
+      },
+      {
+        "entity_id": 3,
+        "entity": "building",
+        "attributes": [
+          {
+            "value": "white",
+            "category": "color"
+          }
+        ],
+        "wearing": []
+      },
+      {
+        "entity_id": 4,
+        "entity": "background",
+        "attributes": [],
+        "wearing": []
+      }
+    ],
+    "scene": {
+      "locations": [
+        {
+          "location": "building",
+          "prep": "of",
+          "setting": "outdoor"
+        }
+      ],
+      "setting": "outdoor",
+      "cues": []
+    },
+    "relationships": [
+      {
+        "subject": "man",
+        "relation": "stand in",
+        "object": "front",
+        "kind": "action"
+      },
+      {
+        "subject": "building",
+        "relation": "in",
+        "object": "background",
+        "kind": "spatial"
+      }
+    ],
+    "flags": [
+      "repeated entity: building"
+    ],
+    "greedy_caption": "Two men are standing outside of a building .",
+    "greedy_beam_entity_jaccard": 0.5,
+    "reference_overlap": {
+      "entities": {
+        "precision": 0.75,
+        "recall": 0.273,
+        "f1": 0.4
+      },
+      "actions": {
+        "precision": 1.0,
+        "recall": 0.091,
+        "f1": 0.167
+      },
+      "attributes": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "locations": {
+        "precision": 1.0,
+        "recall": 0.5,
+        "f1": 0.667
+      }
+    },
+    "attention_focus": 0.631
+  },
+  {
+    "image": "101093029.jpg",
+    "source": "test",
+    "caption": "A man and a woman are walking in front of a building .",
+    "entities": [
+      {
+        "id": 0,
+        "text": "A man",
+        "lemma": "man",
+        "type": "person",
+        "count": 1,
+        "plural": false,
+        "token": 1,
+        "confidence": 0.48
+      },
+      {
+        "id": 1,
+        "text": "a woman",
+        "lemma": "woman",
+        "type": "person",
+        "count": 1,
+        "plural": false,
+        "token": 4,
+        "confidence": 0.856
+      },
+      {
+        "id": 2,
+        "text": "front",
+        "lemma": "front",
+        "type": "object",
+        "count": 1,
+        "plural": false,
+        "token": 8,
+        "confidence": 0.423
+      },
+      {
+        "id": 3,
+        "text": "a building",
+        "lemma": "building",
+        "type": "location",
+        "count": 1,
+        "plural": false,
+        "token": 11,
+        "confidence": 0.397
+      }
+    ],
+    "actions": [
+      {
+        "verb": "walk",
+        "text": "walking",
+        "subject": "man",
+        "object": null,
+        "prep_objects": [
+          [
+            "in",
+            "front"
+          ]
+        ],
+        "passive": false,
+        "token": 6,
+        "confidence": 0.679
+      }
+    ],
+    "attributes": [
+      {
+        "entity_id": 0,
+        "entity": "man",
+        "attributes": [],
+        "wearing": []
+      },
+      {
+        "entity_id": 1,
+        "entity": "woman",
+        "attributes": [],
+        "wearing": []
+      },
+      {
+        "entity_id": 2,
+        "entity": "front",
+        "attributes": [],
+        "wearing": []
+      },
+      {
+        "entity_id": 3,
+        "entity": "building",
+        "attributes": [],
+        "wearing": []
+      }
+    ],
+    "scene": {
+      "locations": [
+        {
+          "location": "building",
+          "prep": "of",
+          "setting": "outdoor"
+        }
+      ],
+      "setting": "outdoor",
+      "cues": []
+    },
+    "relationships": [
+      {
+        "subject": "man",
+        "relation": "walk in",
+        "object": "front",
+        "kind": "action"
+      }
+    ],
+    "flags": [
+      "greedy/beam disagreement (Jaccard 0.17)"
+    ],
+    "greedy_caption": "A man in a suit is walking down the street with a large white van .",
+    "greedy_beam_entity_jaccard": 0.167,
+    "reference_overlap": {
+      "entities": {
+        "precision": 0.25,
+        "recall": 0.091,
+        "f1": 0.133
+      },
+      "actions": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "attributes": {
+        "precision": null,
+        "recall": 0.0,
+        "f1": null
+      },
+      "locations": {
+        "precision": 0.0,
+        "recall": null,
+        "f1": null
+      }
+    },
+    "attention_focus": 0.733
+  },
+  {
+    "image": "1012150929.jpg",
+    "source": "test",
+    "caption": "A young boy in a red shirt is playing an arcade game .",
+    "entities": [
+      {
+        "id": 0,
+        "text": "A young boy",
+        "lemma": "boy",
+        "type": "person",
+        "count": 1,
+        "plural": false,
+        "token": 2,
+        "confidence": 0.86
+      },
+      {
+        "id": 1,
+        "text": "an arcade game",
+        "lemma": "game",
+        "type": "object",
+        "count": 1,
+        "plural": false,
+        "token": 11,
+        "confidence": 0.724
+      }
+    ],
+    "actions": [
+      {
+        "verb": "play",
+        "text": "playing",
+        "subject": "boy",
+        "object": "game",
+        "prep_objects": [],
+        "passive": false,
+        "token": 8,
+        "confidence": 0.633
+      }
+    ],
+    "attributes": [
+      {
+        "entity_id": 0,
+        "entity": "boy",
+        "attributes": [
+          {
+            "value": "young",
+            "category": "age"
+          }
+        ],
+        "wearing": [
+          {
+            "item": "shirt",
+            "modifiers": [
+              "red"
+            ]
+          }
+        ]
+      },
+      {
+        "entity_id": 1,
+        "entity": "game",
+        "attributes": [
+          {
+            "value": "arcade",
+            "category": "other"
+          }
+        ],
+        "wearing": []
+      }
+    ],
+    "scene": {
+      "locations": [],
+      "setting": "unknown",
+      "cues": []
+    },
+    "relationships": [
+      {
+        "subject": "boy",
+        "relation": "play",
+        "object": "game",
+        "kind": "action"
+      }
+    ],
+    "flags": [],
+    "greedy_caption": "A young boy is playing a game at a toy arcade .",
+    "greedy_beam_entity_jaccard": 0.667,
+    "reference_overlap": {
+      "entities": {
+        "precision": 1.0,
+        "recall": 0.25,
+        "f1": 0.4
+      },
+      "actions": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "attributes": {
+        "precision": 0.333,
+        "recall": 0.25,
+        "f1": 0.286
+      },
+      "locations": {
+        "precision": null,
+        "recall": 0.0,
+        "f1": null
+      }
+    },
+    "attention_focus": 0.548
+  },
+  {
+    "image": "101362650.jpg",
+    "source": "test",
+    "caption": "A group of children are practicing karate .",
+    "entities": [
+      {
+        "id": 0,
+        "text": "A group of children",
+        "lemma": "child",
+        "type": "person",
+        "count": "group",
+        "plural": true,
+        "token": 3,
+        "confidence": 0.424
+      },
+      {
+        "id": 1,
+        "text": "karate",
+        "lemma": "karate",
+        "type": "object",
+        "count": 1,
+        "plural": false,
+        "token": 6,
+        "confidence": 0.701
+      }
+    ],
+    "actions": [
+      {
+        "verb": "practice",
+        "text": "practicing",
+        "subject": "child",
+        "object": "karate",
+        "prep_objects": [],
+        "passive": false,
+        "token": 5,
+        "confidence": 0.421
+      }
+    ],
+    "attributes": [
+      {
+        "entity_id": 0,
+        "entity": "child",
+        "attributes": [],
+        "wearing": []
+      },
+      {
+        "entity_id": 1,
+        "entity": "karate",
+        "attributes": [],
+        "wearing": []
+      }
+    ],
+    "scene": {
+      "locations": [],
+      "setting": "unknown",
+      "cues": []
+    },
+    "relationships": [
+      {
+        "subject": "child",
+        "relation": "practice",
+        "object": "karate",
+        "kind": "action"
+      }
+    ],
+    "flags": [],
+    "greedy_caption": "A group of children are practicing karate .",
+    "greedy_beam_entity_jaccard": 1.0,
+    "reference_overlap": {
+      "entities": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "actions": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "attributes": {
+        "precision": null,
+        "recall": 0.0,
+        "f1": null
+      },
+      "locations": {
+        "precision": null,
+        "recall": null,
+        "f1": null
+      }
+    },
+    "attention_focus": 0.77
+  },
+  {
+    "image": "101471792.jpg",
+    "source": "test",
+    "caption": "A man in a red coat is standing in front of a crowd of people .",
+    "entities": [
+      {
+        "id": 0,
+        "text": "A man",
+        "lemma": "man",
+        "type": "person",
+        "count": 1,
+        "plural": false,
+        "token": 1,
+        "confidence": 0.768
+      },
+      {
+        "id": 1,
+        "text": "front",
+        "lemma": "front",
+        "type": "object",
+        "count": 1,
+        "plural": false,
+        "token": 9,
+        "confidence": 0.281
+      },
+      {
+        "id": 2,
+        "text": "a crowd of people",
+        "lemma": "people",
+        "type": "person",
+        "count": "crowd",
+        "plural": true,
+        "token": 14,
+        "confidence": 0.911
+      }
+    ],
+    "actions": [
+      {
+        "verb": "stand",
+        "text": "standing",
+        "subject": "man",
+        "object": null,
+        "prep_objects": [
+          [
+            "in",
+            "front"
+          ]
+        ],
+        "passive": false,
+        "token": 7,
+        "confidence": 0.276
+      }
+    ],
+    "attributes": [
+      {
+        "entity_id": 0,
+        "entity": "man",
+        "attributes": [],
+        "wearing": [
+          {
+            "item": "coat",
+            "modifiers": [
+              "red"
+            ]
+          }
+        ]
+      },
+      {
+        "entity_id": 1,
+        "entity": "front",
+        "attributes": [],
+        "wearing": []
+      },
+      {
+        "entity_id": 2,
+        "entity": "people",
+        "attributes": [],
+        "wearing": []
+      }
+    ],
+    "scene": {
+      "locations": [],
+      "setting": "unknown",
+      "cues": []
+    },
+    "relationships": [
+      {
+        "subject": "man",
+        "relation": "stand in",
+        "object": "front",
+        "kind": "action"
+      }
+    ],
+    "flags": [
+      "greedy/beam disagreement (Jaccard 0.20)"
+    ],
+    "greedy_caption": "A man in a red coat is standing in the middle of a crowd .",
+    "greedy_beam_entity_jaccard": 0.2,
+    "reference_overlap": {
+      "entities": {
+        "precision": 0.333,
+        "recall": 0.111,
+        "f1": 0.167
+      },
+      "actions": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "attributes": {
+        "precision": 1.0,
+        "recall": 0.2,
+        "f1": 0.333
+      },
+      "locations": {
+        "precision": null,
+        "recall": 0.0,
+        "f1": null
+      }
+    },
+    "attention_focus": 0.554
+  },
+  {
+    "image": "1015584366.jpg",
+    "source": "test",
+    "caption": "A black dog is running through the woods .",
+    "entities": [
+      {
+        "id": 0,
+        "text": "A black dog",
+        "lemma": "dog",
+        "type": "animal",
+        "count": 1,
+        "plural": false,
+        "token": 2,
+        "confidence": 0.732
+      },
+      {
+        "id": 1,
+        "text": "the woods",
+        "lemma": "wood",
+        "type": "object",
+        "count": "several",
+        "plural": true,
+        "token": 7,
+        "confidence": 0.476
+      }
+    ],
+    "actions": [
+      {
+        "verb": "run",
+        "text": "running",
+        "subject": "dog",
+        "object": null,
+        "prep_objects": [
+          [
+            "through",
+            "wood"
+          ]
+        ],
+        "passive": false,
+        "token": 4,
+        "confidence": 0.487
+      }
+    ],
+    "attributes": [
+      {
+        "entity_id": 0,
+        "entity": "dog",
+        "attributes": [
+          {
+            "value": "black",
+            "category": "color"
+          }
+        ],
+        "wearing": []
+      },
+      {
+        "entity_id": 1,
+        "entity": "wood",
+        "attributes": [],
+        "wearing": []
+      }
+    ],
+    "scene": {
+      "locations": [],
+      "setting": "unknown",
+      "cues": []
+    },
+    "relationships": [
+      {
+        "subject": "dog",
+        "relation": "run through",
+        "object": "wood",
+        "kind": "action"
+      }
+    ],
+    "flags": [
+      "greedy/beam disagreement (Jaccard 0.33)"
+    ],
+    "greedy_caption": "A black dog is running through a tree stump .",
+    "greedy_beam_entity_jaccard": 0.333,
+    "reference_overlap": {
+      "entities": {
+        "precision": 0.5,
+        "recall": 0.2,
+        "f1": 0.286
+      },
+      "actions": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "attributes": {
+        "precision": 1.0,
+        "recall": 0.143,
+        "f1": 0.25
+      },
+      "locations": {
+        "precision": null,
+        "recall": 0.0,
+        "f1": null
+      }
+    },
+    "attention_focus": 0.751
+  },
+  {
+    "image": "10188041.jpg",
+    "source": "test",
+    "caption": "A man in a black suit is standing in front of a red car .",
+    "entities": [
+      {
+        "id": 0,
+        "text": "A man",
+        "lemma": "man",
+        "type": "person",
+        "count": 1,
+        "plural": false,
+        "token": 1,
+        "confidence": 0.876
+      },
+      {
+        "id": 1,
+        "text": "front",
+        "lemma": "front",
+        "type": "object",
+        "count": 1,
+        "plural": false,
+        "token": 9,
+        "confidence": 0.821
+      },
+      {
+        "id": 2,
+        "text": "a red car",
+        "lemma": "car",
+        "type": "object",
+        "count": 1,
+        "plural": false,
+        "token": 13,
+        "confidence": 0.361
+      }
+    ],
+    "actions": [
+      {
+        "verb": "stand",
+        "text": "standing",
+        "subject": "man",
+        "object": null,
+        "prep_objects": [
+          [
+            "in",
+            "front"
+          ]
+        ],
+        "passive": false,
+        "token": 7,
+        "confidence": 0.6
+      }
+    ],
+    "attributes": [
+      {
+        "entity_id": 0,
+        "entity": "man",
+        "attributes": [],
+        "wearing": [
+          {
+            "item": "suit",
+            "modifiers": [
+              "black"
+            ]
+          }
+        ]
+      },
+      {
+        "entity_id": 1,
+        "entity": "front",
+        "attributes": [],
+        "wearing": []
+      },
+      {
+        "entity_id": 2,
+        "entity": "car",
+        "attributes": [
+          {
+            "value": "red",
+            "category": "color"
+          }
+        ],
+        "wearing": []
+      }
+    ],
+    "scene": {
+      "locations": [],
+      "setting": "unknown",
+      "cues": []
+    },
+    "relationships": [
+      {
+        "subject": "man",
+        "relation": "stand in",
+        "object": "front",
+        "kind": "action"
+      }
+    ],
+    "flags": [],
+    "greedy_caption": "A man in a black suit is standing in front of a red car .",
+    "greedy_beam_entity_jaccard": 1.0,
+    "reference_overlap": {
+      "entities": {
+        "precision": 0.667,
+        "recall": 0.222,
+        "f1": 0.333
+      },
+      "actions": {
+        "precision": 1.0,
+        "recall": 0.143,
+        "f1": 0.25
+      },
+      "attributes": {
+        "precision": 1.0,
+        "recall": 0.4,
+        "f1": 0.571
+      },
+      "locations": {
+        "precision": null,
+        "recall": 0.0,
+        "f1": null
+      }
+    },
+    "attention_focus": 0.648
+  },
+  {
+    "image": "1026792563.jpg",
+    "source": "test",
+    "caption": "A group of people are gathered in a market .",
+    "entities": [
+      {
+        "id": 0,
+        "text": "A group of people",
+        "lemma": "people",
+        "type": "person",
+        "count": "group",
+        "plural": true,
+        "token": 3,
+        "confidence": 0.456
+      },
+      {
+        "id": 1,
+        "text": "a market",
+        "lemma": "market",
+        "type": "location",
+        "count": 1,
+        "plural": false,
+        "token": 8,
+        "confidence": 0.261
+      }
+    ],
+    "actions": [
+      {
+        "verb": "gather",
+        "text": "gathered",
+        "subject": "people",
+        "object": null,
+        "prep_objects": [
+          [
+            "in",
+            "market"
+          ]
+        ],
+        "passive": true,
+        "token": 5,
+        "confidence": 0.161
+      }
+    ],
+    "attributes": [
+      {
+        "entity_id": 0,
+        "entity": "people",
+        "attributes": [],
+        "wearing": []
+      },
+      {
+        "entity_id": 1,
+        "entity": "market",
+        "attributes": [],
+        "wearing": []
+      }
+    ],
+    "scene": {
+      "locations": [
+        {
+          "location": "market",
+          "prep": "in",
+          "setting": "outdoor"
+        }
+      ],
+      "setting": "outdoor",
+      "cues": []
+    },
+    "relationships": [
+      {
+        "subject": "people",
+        "relation": "gather in",
+        "object": "market",
+        "kind": "action"
+      }
+    ],
+    "flags": [
+      "greedy/beam disagreement (Jaccard 0.25)"
+    ],
+    "greedy_caption": "A group of people are gathered around a large pot of fish .",
+    "greedy_beam_entity_jaccard": 0.25,
+    "reference_overlap": {
+      "entities": {
+        "precision": 1.0,
+        "recall": 0.182,
+        "f1": 0.308
+      },
+      "actions": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "attributes": {
+        "precision": null,
+        "recall": 0.0,
+        "f1": null
+      },
+      "locations": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      }
+    },
+    "attention_focus": 0.688
+  },
+  {
+    "image": "1029737941.jpg",
+    "source": "test",
+    "caption": "A woman in a black shirt is looking at a flower .",
+    "entities": [
+      {
+        "id": 0,
+        "text": "A woman",
+        "lemma": "woman",
+        "type": "person",
+        "count": 1,
+        "plural": false,
+        "token": 1,
+        "confidence": 0.497
+      },
+      {
+        "id": 1,
+        "text": "a flower",
+        "lemma": "flower",
+        "type": "object",
+        "count": 1,
+        "plural": false,
+        "token": 10,
+        "confidence": 0.184
+      }
+    ],
+    "actions": [
+      {
+        "verb": "look",
+        "text": "looking",
+        "subject": "woman",
+        "object": null,
+        "prep_objects": [
+          [
+            "at",
+            "flower"
+          ]
+        ],
+        "passive": false,
+        "token": 7,
+        "confidence": 0.155
+      }
+    ],
+    "attributes": [
+      {
+        "entity_id": 0,
+        "entity": "woman",
+        "attributes": [],
+        "wearing": [
+          {
+            "item": "shirt",
+            "modifiers": [
+              "black"
+            ]
+          }
+        ]
+      },
+      {
+        "entity_id": 1,
+        "entity": "flower",
+        "attributes": [],
+        "wearing": []
+      }
+    ],
+    "scene": {
+      "locations": [],
+      "setting": "unknown",
+      "cues": []
+    },
+    "relationships": [
+      {
+        "subject": "woman",
+        "relation": "look at",
+        "object": "flower",
+        "kind": "action"
+      }
+    ],
+    "flags": [
+      "greedy/beam disagreement (Jaccard 0.25)"
+    ],
+    "greedy_caption": "A woman in a black shirt is holding a camera while a man in a gray shirt is looking at her .",
+    "greedy_beam_entity_jaccard": 0.25,
+    "reference_overlap": {
+      "entities": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "actions": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "attributes": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "locations": {
+        "precision": null,
+        "recall": null,
+        "f1": null
+      }
+    },
+    "attention_focus": 0.584
+  },
+  {
+    "image": "102998070.jpg",
+    "source": "test",
+    "caption": "A man in a gray shirt and a woman in a white shirt are looking at fish .",
+    "entities": [
+      {
+        "id": 0,
+        "text": "A man",
+        "lemma": "man",
+        "type": "person",
+        "count": 1,
+        "plural": false,
+        "token": 1,
+        "confidence": 0.568
+      },
+      {
+        "id": 1,
+        "text": "a woman",
+        "lemma": "woman",
+        "type": "person",
+        "count": 1,
+        "plural": false,
+        "token": 8,
+        "confidence": 0.707
+      },
+      {
+        "id": 2,
+        "text": "fish",
+        "lemma": "fish",
+        "type": "animal",
+        "count": 1,
+        "plural": false,
+        "token": 16,
+        "confidence": 0.188
+      }
+    ],
+    "actions": [
+      {
+        "verb": "look",
+        "text": "looking",
+        "subject": "man",
+        "object": null,
+        "prep_objects": [
+          [
+            "at",
+            "fish"
+          ]
+        ],
+        "passive": false,
+        "token": 14,
+        "confidence": 0.262
+      }
+    ],
+    "attributes": [
+      {
+        "entity_id": 0,
+        "entity": "man",
+        "attributes": [],
+        "wearing": [
+          {
+            "item": "shirt",
+            "modifiers": [
+              "gray"
+            ]
+          }
+        ]
+      },
+      {
+        "entity_id": 1,
+        "entity": "woman",
+        "attributes": [],
+        "wearing": [
+          {
+            "item": "shirt",
+            "modifiers": [
+              "white"
+            ]
+          }
+        ]
+      },
+      {
+        "entity_id": 2,
+        "entity": "fish",
+        "attributes": [],
+        "wearing": []
+      }
+    ],
+    "scene": {
+      "locations": [],
+      "setting": "unknown",
+      "cues": []
+    },
+    "relationships": [
+      {
+        "subject": "man",
+        "relation": "look at",
+        "object": "fish",
+        "kind": "action"
+      }
+    ],
+    "flags": [
+      "repeated bigram"
+    ],
+    "greedy_caption": "A man in a gray shirt and a woman in a white shirt are looking at fish .",
+    "greedy_beam_entity_jaccard": 1.0,
+    "reference_overlap": {
+      "entities": {
+        "precision": 0.667,
+        "recall": 0.286,
+        "f1": 0.4
+      },
+      "actions": {
+        "precision": 1.0,
+        "recall": 0.167,
+        "f1": 0.286
+      },
+      "attributes": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "locations": {
+        "precision": null,
+        "recall": null,
+        "f1": null
+      }
+    },
+    "attention_focus": 0.658
+  },
+  {
+    "image": "1030041880.jpg",
+    "source": "test",
+    "caption": "A woman in a green dress dances on a stage .",
+    "entities": [
+      {
+        "id": 0,
+        "text": "A woman",
+        "lemma": "woman",
+        "type": "person",
+        "count": 1,
+        "plural": false,
+        "token": 1,
+        "confidence": 0.556
+      },
+      {
+        "id": 1,
+        "text": "a green dress dances",
+        "lemma": "dance",
+        "type": "object",
+        "count": 1,
+        "plural": true,
+        "token": 6,
+        "confidence": 0.375
+      },
+      {
+        "id": 2,
+        "text": "a stage",
+        "lemma": "stage",
+        "type": "location",
+        "count": 1,
+        "plural": false,
+        "token": 9,
+        "confidence": 0.714
+      }
+    ],
+    "actions": [],
+    "attributes": [
+      {
+        "entity_id": 0,
+        "entity": "woman",
+        "attributes": [],
+        "wearing": [
+          {
+            "item": "dress",
+            "modifiers": []
+          }
+        ]
+      },
+      {
+        "entity_id": 1,
+        "entity": "dance",
+        "attributes": [
+          {
+            "value": "green",
+            "category": "color"
+          },
+          {
+            "value": "dress",
+            "category": "other"
+          }
+        ],
+        "wearing": []
+      },
+      {
+        "entity_id": 2,
+        "entity": "stage",
+        "attributes": [],
+        "wearing": []
+      }
+    ],
+    "scene": {
+      "locations": [
+        {
+          "location": "stage",
+          "prep": "on",
+          "setting": "indoor"
+        }
+      ],
+      "setting": "indoor",
+      "cues": []
+    },
+    "relationships": [
+      {
+        "subject": "woman",
+        "relation": "in",
+        "object": "dance",
+        "kind": "spatial"
+      },
+      {
+        "subject": "dance",
+        "relation": "on",
+        "object": "stage",
+        "kind": "spatial"
+      }
+    ],
+    "flags": [
+      "no action",
+      "greedy/beam disagreement (Jaccard 0.40)"
+    ],
+    "greedy_caption": "A woman in a green dress dances in front of a crowd .",
+    "greedy_beam_entity_jaccard": 0.4,
+    "reference_overlap": {
+      "entities": {
+        "precision": 0.667,
+        "recall": 0.2,
+        "f1": 0.308
+      },
+      "actions": {
+        "precision": null,
+        "recall": 0.0,
+        "f1": null
+      },
+      "attributes": {
+        "precision": 0.5,
+        "recall": 0.111,
+        "f1": 0.182
+      },
+      "locations": {
+        "precision": 1.0,
+        "recall": 0.333,
+        "f1": 0.5
+      }
+    },
+    "attention_focus": 0.795
+  },
+  {
+    "image": "1034276567.jpg",
+    "source": "test",
+    "caption": "A young boy is eating a sandwich .",
+    "entities": [
+      {
+        "id": 0,
+        "text": "A young boy",
+        "lemma": "boy",
+        "type": "person",
+        "count": 1,
+        "plural": false,
+        "token": 2,
+        "confidence": 0.955
+      },
+      {
+        "id": 1,
+        "text": "a sandwich",
+        "lemma": "sandwich",
+        "type": "object",
+        "count": 1,
+        "plural": false,
+        "token": 6,
+        "confidence": 0.242
+      }
+    ],
+    "actions": [
+      {
+        "verb": "eat",
+        "text": "eating",
+        "subject": "boy",
+        "object": "sandwich",
+        "prep_objects": [],
+        "passive": false,
+        "token": 4,
+        "confidence": 0.77
+      }
+    ],
+    "attributes": [
+      {
+        "entity_id": 0,
+        "entity": "boy",
+        "attributes": [
+          {
+            "value": "young",
+            "category": "age"
+          }
+        ],
+        "wearing": []
+      },
+      {
+        "entity_id": 1,
+        "entity": "sandwich",
+        "attributes": [],
+        "wearing": []
+      }
+    ],
+    "scene": {
+      "locations": [],
+      "setting": "unknown",
+      "cues": []
+    },
+    "relationships": [
+      {
+        "subject": "boy",
+        "relation": "eat",
+        "object": "sandwich",
+        "kind": "action"
+      }
+    ],
+    "flags": [],
+    "greedy_caption": "A young boy eats a sandwich .",
+    "greedy_beam_entity_jaccard": 1.0,
+    "reference_overlap": {
+      "entities": {
+        "precision": 0.5,
+        "recall": 0.1,
+        "f1": 0.167
+      },
+      "actions": {
+        "precision": 1.0,
+        "recall": 0.25,
+        "f1": 0.4
+      },
+      "attributes": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "locations": {
+        "precision": null,
+        "recall": 0.0,
+        "f1": null
+      }
+    },
+    "attention_focus": 0.787
+  },
+  {
+    "image": "1039637574.jpg",
+    "source": "test",
+    "caption": "A woman in a white dress is standing next to a man in a black dress .",
+    "entities": [
+      {
+        "id": 0,
+        "text": "A woman",
+        "lemma": "woman",
+        "type": "person",
+        "count": 1,
+        "plural": false,
+        "token": 1,
+        "confidence": 0.101
+      },
+      {
+        "id": 1,
+        "text": "a man",
+        "lemma": "man",
+        "type": "person",
+        "count": 1,
+        "plural": false,
+        "token": 11,
+        "confidence": 0.504
+      }
+    ],
+    "actions": [
+      {
+        "verb": "stand",
+        "text": "standing",
+        "subject": "woman",
+        "object": null,
+        "prep_objects": [],
+        "passive": false,
+        "token": 7,
+        "confidence": 0.359
+      }
+    ],
+    "attributes": [
+      {
+        "entity_id": 0,
+        "entity": "woman",
+        "attributes": [],
+        "wearing": [
+          {
+            "item": "dress",
+            "modifiers": [
+              "white"
+            ]
+          }
+        ]
+      },
+      {
+        "entity_id": 1,
+        "entity": "man",
+        "attributes": [],
+        "wearing": [
+          {
+            "item": "dress",
+            "modifiers": [
+              "black"
+            ]
+          }
+        ]
+      }
+    ],
+    "scene": {
+      "locations": [],
+      "setting": "unknown",
+      "cues": []
+    },
+    "relationships": [],
+    "flags": [
+      "repeated bigram",
+      "greedy/beam disagreement (Jaccard 0.00)"
+    ],
+    "greedy_caption": "A bride and groom are standing in front of a statue .",
+    "greedy_beam_entity_jaccard": 0.0,
+    "reference_overlap": {
+      "entities": {
+        "precision": 1.0,
+        "recall": 0.143,
+        "f1": 0.25
+      },
+      "actions": {
+        "precision": 1.0,
+        "recall": 0.167,
+        "f1": 0.286
+      },
+      "attributes": {
+        "precision": 0.5,
+        "recall": 0.1,
+        "f1": 0.167
+      },
+      "locations": {
+        "precision": null,
+        "recall": null,
+        "f1": null
+      }
+    },
+    "attention_focus": 0.703
+  },
+  {
+    "image": "104136873.jpg",
+    "source": "test",
+    "caption": "A group of people are sitting on a hill overlooking the mountains .",
+    "entities": [
+      {
+        "id": 0,
+        "text": "A group of people",
+        "lemma": "people",
+        "type": "person",
+        "count": "group",
+        "plural": true,
+        "token": 3,
+        "confidence": 0.682
+      },
+      {
+        "id": 1,
+        "text": "a hill",
+        "lemma": "hill",
+        "type": "location",
+        "count": 1,
+        "plural": false,
+        "token": 8,
+        "confidence": 0.259
+      },
+      {
+        "id": 2,
+        "text": "the mountains",
+        "lemma": "mountain",
+        "type": "location",
+        "count": "several",
+        "plural": true,
+        "token": 11,
+        "confidence": 0.479
+      }
+    ],
+    "actions": [
+      {
+        "verb": "sit",
+        "text": "sitting",
+        "subject": "people",
+        "object": null,
+        "prep_objects": [
+          [
+            "on",
+            "hill"
+          ]
+        ],
+        "passive": false,
+        "token": 5,
+        "confidence": 0.612
+      },
+      {
+        "verb": "overlook",
+        "text": "overlooking",
+        "subject": "hill",
+        "object": "mountain",
+        "prep_objects": [],
+        "passive": false,
+        "token": 9,
+        "confidence": 0.455
+      }
+    ],
+    "attributes": [
+      {
+        "entity_id": 0,
+        "entity": "people",
+        "attributes": [],
+        "wearing": []
+      },
+      {
+        "entity_id": 1,
+        "entity": "hill",
+        "attributes": [],
+        "wearing": []
+      },
+      {
+        "entity_id": 2,
+        "entity": "mountain",
+        "attributes": [],
+        "wearing": []
+      }
+    ],
+    "scene": {
+      "locations": [
+        {
+          "location": "hill",
+          "prep": "on",
+          "setting": "outdoor"
+        }
+      ],
+      "setting": "outdoor",
+      "cues": []
+    },
+    "relationships": [
+      {
+        "subject": "people",
+        "relation": "sit on",
+        "object": "hill",
+        "kind": "action"
+      },
+      {
+        "subject": "hill",
+        "relation": "overlook",
+        "object": "mountain",
+        "kind": "action"
+      }
+    ],
+    "flags": [],
+    "greedy_caption": "A group of people are sitting on a hill overlooking a mountain range .",
+    "greedy_beam_entity_jaccard": 0.5,
+    "reference_overlap": {
+      "entities": {
+        "precision": 0.667,
+        "recall": 0.25,
+        "f1": 0.364
+      },
+      "actions": {
+        "precision": 1.0,
+        "recall": 0.4,
+        "f1": 0.571
+      },
+      "attributes": {
+        "precision": null,
+        "recall": 0.0,
+        "f1": null
+      },
+      "locations": {
+        "precision": 1.0,
+        "recall": 0.5,
+        "f1": 0.667
+      }
+    },
+    "attention_focus": 0.587
+  },
+  {
+    "image": "1043910339.jpg",
+    "source": "test",
+    "caption": "A baseball player in a red and white uniform is swinging at the ball .",
+    "entities": [
+      {
+        "id": 0,
+        "text": "A baseball player",
+        "lemma": "player",
+        "type": "person",
+        "count": 1,
+        "plural": false,
+        "token": 2,
+        "confidence": 0.966
+      },
+      {
+        "id": 1,
+        "text": "the ball",
+        "lemma": "ball",
+        "type": "object",
+        "count": 1,
+        "plural": false,
+        "token": 13,
+        "confidence": 0.617
+      }
+    ],
+    "actions": [
+      {
+        "verb": "swing",
+        "text": "swinging",
+        "subject": "player",
+        "object": null,
+        "prep_objects": [
+          [
+            "at",
+            "ball"
+          ]
+        ],
+        "passive": false,
+        "token": 10,
+        "confidence": 0.182
+      }
+    ],
+    "attributes": [
+      {
+        "entity_id": 0,
+        "entity": "player",
+        "attributes": [
+          {
+            "value": "baseball",
+            "category": "other"
+          }
+        ],
+        "wearing": [
+          {
+            "item": "uniform",
+            "modifiers": [
+              "red",
+              "white"
+            ]
+          }
+        ]
+      },
+      {
+        "entity_id": 1,
+        "entity": "ball",
+        "attributes": [],
+        "wearing": []
+      }
+    ],
+    "scene": {
+      "locations": [],
+      "setting": "unknown",
+      "cues": []
+    },
+    "relationships": [
+      {
+        "subject": "player",
+        "relation": "swing at",
+        "object": "ball",
+        "kind": "action"
+      }
+    ],
+    "flags": [
+      "greedy/beam disagreement (Jaccard 0.25)"
+    ],
+    "greedy_caption": "A baseball player in a red shirt is sliding into the base while a player in blue is trying to catch him .",
+    "greedy_beam_entity_jaccard": 0.25,
+    "reference_overlap": {
+      "entities": {
+        "precision": 1.0,
+        "recall": 0.133,
+        "f1": 0.235
+      },
+      "actions": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "attributes": {
+        "precision": 0.667,
+        "recall": 0.286,
+        "f1": 0.4
+      },
+      "locations": {
+        "precision": null,
+        "recall": null,
+        "f1": null
+      }
+    },
+    "attention_focus": 0.769
+  },
+  {
+    "image": "1045309098.jpg",
+    "source": "test",
+    "caption": "A woman in a white shirt and a man in a black shirt are crossing the street .",
+    "entities": [
+      {
+        "id": 0,
+        "text": "A woman",
+        "lemma": "woman",
+        "type": "person",
+        "count": 1,
+        "plural": false,
+        "token": 1,
+        "confidence": 0.559
+      },
+      {
+        "id": 1,
+        "text": "a man",
+        "lemma": "man",
+        "type": "person",
+        "count": 1,
+        "plural": false,
+        "token": 8,
+        "confidence": 0.279
+      },
+      {
+        "id": 2,
+        "text": "the street",
+        "lemma": "street",
+        "type": "location",
+        "count": 1,
+        "plural": false,
+        "token": 16,
+        "confidence": 0.908
+      }
+    ],
+    "actions": [
+      {
+        "verb": "cross",
+        "text": "crossing",
+        "subject": "woman",
+        "object": "street",
+        "prep_objects": [],
+        "passive": false,
+        "token": 14,
+        "confidence": 0.155
+      }
+    ],
+    "attributes": [
+      {
+        "entity_id": 0,
+        "entity": "woman",
+        "attributes": [],
+        "wearing": [
+          {
+            "item": "shirt",
+            "modifiers": [
+              "white"
+            ]
+          }
+        ]
+      },
+      {
+        "entity_id": 1,
+        "entity": "man",
+        "attributes": [],
+        "wearing": [
+          {
+            "item": "shirt",
+            "modifiers": [
+              "black"
+            ]
+          }
+        ]
+      },
+      {
+        "entity_id": 2,
+        "entity": "street",
+        "attributes": [],
+        "wearing": []
+      }
+    ],
+    "scene": {
+      "locations": [],
+      "setting": "unknown",
+      "cues": []
+    },
+    "relationships": [
+      {
+        "subject": "woman",
+        "relation": "cross",
+        "object": "street",
+        "kind": "action"
+      }
+    ],
+    "flags": [
+      "repeated bigram"
+    ],
+    "greedy_caption": "Two women are walking down the street .",
+    "greedy_beam_entity_jaccard": 0.667,
+    "reference_overlap": {
+      "entities": {
+        "precision": 0.667,
+        "recall": 0.25,
+        "f1": 0.364
+      },
+      "actions": {
+        "precision": 1.0,
+        "recall": 0.333,
+        "f1": 0.5
+      },
+      "attributes": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "locations": {
+        "precision": null,
+        "recall": null,
+        "f1": null
+      }
+    },
+    "attention_focus": 0.659
+  },
+  {
+    "image": "104763189.jpg",
+    "source": "test",
+    "caption": "Two young boys are riding bikes in the grass .",
+    "entities": [
+      {
+        "id": 0,
+        "text": "Two young boys",
+        "lemma": "boy",
+        "type": "person",
+        "count": 2,
+        "plural": true,
+        "token": 2,
+        "confidence": 0.522
+      },
+      {
+        "id": 1,
+        "text": "bikes",
+        "lemma": "bike",
+        "type": "object",
+        "count": "several",
+        "plural": true,
+        "token": 5,
+        "confidence": 0.316
+      },
+      {
+        "id": 2,
+        "text": "the grass",
+        "lemma": "grass",
+        "type": "location",
+        "count": 1,
+        "plural": false,
+        "token": 8,
+        "confidence": 0.506
+      }
+    ],
+    "actions": [
+      {
+        "verb": "rid",
+        "text": "riding",
+        "subject": "boy",
+        "object": "bike",
+        "prep_objects": [],
+        "passive": false,
+        "token": 4,
+        "confidence": 0.499
+      }
+    ],
+    "attributes": [
+      {
+        "entity_id": 0,
+        "entity": "boy",
+        "attributes": [
+          {
+            "value": "young",
+            "category": "age"
+          }
+        ],
+        "wearing": []
+      },
+      {
+        "entity_id": 1,
+        "entity": "bike",
+        "attributes": [],
+        "wearing": []
+      },
+      {
+        "entity_id": 2,
+        "entity": "grass",
+        "attributes": [],
+        "wearing": []
+      }
+    ],
+    "scene": {
+      "locations": [
+        {
+          "location": "grass",
+          "prep": "in",
+          "setting": "outdoor"
+        }
+      ],
+      "setting": "outdoor",
+      "cues": []
+    },
+    "relationships": [
+      {
+        "subject": "boy",
+        "relation": "rid",
+        "object": "bike",
+        "kind": "action"
+      },
+      {
+        "subject": "bike",
+        "relation": "in",
+        "object": "grass",
+        "kind": "spatial"
+      }
+    ],
+    "flags": [],
+    "greedy_caption": "Two children are riding bikes in the grass .",
+    "greedy_beam_entity_jaccard": 0.5,
+    "reference_overlap": {
+      "entities": {
+        "precision": 0.667,
+        "recall": 0.286,
+        "f1": 0.4
+      },
+      "actions": {
+        "precision": 1.0,
+        "recall": 0.2,
+        "f1": 0.333
+      },
+      "attributes": {
+        "precision": 1.0,
+        "recall": 0.143,
+        "f1": 0.25
+      },
+      "locations": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      }
+    },
+    "attention_focus": 0.555
+  }
+]
