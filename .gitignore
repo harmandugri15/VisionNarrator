@@ -1,3 +1,5 @@
 venv
 src/data
+src/models/*.pt
 /checkpoints
+__pycache__/
