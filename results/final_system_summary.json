@@ -1,0 +1,124 @@
+{
+  "components": [
+    {
+      "component": "captioner (ViT + projection + GPT-2)",
+      "parameters": 211419648,
+      "disk MB": 846,
+      "device": "cuda",
+      "load s": 4.6
+    },
+    {
+      "component": "semantic layer (spaCy core_web_sm)",
+      "parameters": null,
+      "disk MB": null,
+      "device": "cpu",
+      "load s": 0.2
+    },
+    {
+      "component": "story model (Qwen/Qwen2.5-1.5B-Instruct)",
+      "parameters": 1543714304,
+      "disk MB": null,
+      "device": "cuda",
+      "load s": 5.8
+    }
+  ],
+  "captioner": {
+    "vit_model_name": "google/vit-base-patch16-224-in21k",
+    "gpt2_model_name": "gpt2",
+    "img_size": 224,
+    "image_mean": [
+      0.5,
+      0.5,
+      0.5
+    ],
+    "image_std": [
+      0.5,
+      0.5,
+      0.5
+    ],
+    "prefix_len": 197,
+    "dropout": 0.1,
+    "max_tokens": 40,
+    "num_beams": 5,
+    "max_new_tokens": 30,
+    "no_repeat_ngram": 3,
+    "best_phase": "phase3",
+    "val_loss": 2.3656
+  },
+  "story_model": {
+    "name": "Qwen/Qwen2.5-1.5B-Instruct",
+    "available": true,
+    "settings": {
+      "temperature": 0.6,
+      "top_p": 0.9,
+      "seed": 42,
+      "max_repairs": 1,
+      "min_entity_coverage": 0.5,
+      "uncertain_below": 0.3
+    }
+  },
+  "evaluation": {
+    "test_images": 4768,
+    "best_decoding": "beam 5",
+    "metrics": {
+      "greedy": {
+        "BLEU-1": 0.6912,
+        "BLEU-2": 0.4912,
+        "BLEU-3": 0.3462,
+        "BLEU-4": 0.244,
+        "METEOR": 0.2225,
+        "ROUGE-L": 0.5252,
+        "CIDEr": 0.5492
+      },
+      "beam 5": {
+        "BLEU-1": 0.7082,
+        "BLEU-2": 0.5142,
+        "BLEU-3": 0.3718,
+        "BLEU-4": 0.2675,
+        "METEOR": 0.2285,
+        "ROUGE-L": 0.5362,
+        "CIDEr": 0.6038
+      }
+    },
+    "comparison_subset": {
+      "images": 500,
+      "previous_best_model": "Fine-tuned ViT + Decoder",
+      "previous_best_bleu4": 0.2537,
+      "final_model_bleu4": 0.2684
+    }
+  },
+  "semantic_layer": {
+    "images": 24,
+    "mean_entities": 2.58,
+    "mean_actions": 1.0,
+    "images_with_flags": 14
+  },
+  "story_generation": {
+    "records": 24,
+    "mean_story_grounded_ratio": 0.561,
+    "mean_story_entity_coverage": 0.9,
+    "stories_with_names": 0,
+    "stories_repaired": 22
+  },
+  "pipeline_latency": {
+    "images": 8,
+    "mean_total_s": 9.787,
+    "stages_mean_s": {
+      "preprocess": 0.005,
+      "encode": 0.01,
+      "caption": 0.235,
+      "semantics": 0.12,
+      "text:short_description": 0.458,
+      "text:detailed_explanation": 1.587,
+      "text:story": 7.37,
+      "total": 9.787
+    },
+    "options_mean_s": {
+      "caption, greedy": 0.19,
+      "caption, beam": 0.241,
+      "describe": 0.842,
+      "story": 11.246
+    }
+  },
+  "device": "cuda"
+}
